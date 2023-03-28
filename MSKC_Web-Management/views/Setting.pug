@@ -1,0 +1,24 @@
+extends index
+block content 
+    h1(style = "text-align:center") MSKC Web Management
+    p(style = "text-align:center") Setting
+    div.Setting_div(sytle = "width:100%")
+        label.Setting_label(for="aptname") 아파트 이름 :
+        input#aptname(type="text" name="aptname")
+    div.Setting_div(sytle = "width:100%")
+        label.Setting_label(for="conname") 건설사 이름 :
+        input#conname(type="text" name="conname")
+    div.Setting_div(sytle = "width:100%")
+        label.Setting_label(for="homenetname") 홈네트워크사 이름 :
+        input#homenetname(type="text" name="homenetname")
+    div.Setting_div(sytle = "width:100%")
+        label.Setting_label(for="dongnum") 동 수 :
+        input#dongnum(type="text" name="dongnum")
+    div.Setting_div(sytle = "width:100%")
+        label.Setting_label(for="housebydong") 동 별 가구 수 :
+        input#housebydong(type="text" name="housebydong")
+    div.Setting_div(sytle = "width:100%")
+        label.Setting_label(for="floorbydong") 동 별 층 수 :
+        input#floorbydong(type="text" name="floorbydong")
+    div.Setting_div(sytle = "width:100%")
+        label.Setting_label(style = "padding : 4px;border: solid black 1px", onclick="location.href='/'") 저장

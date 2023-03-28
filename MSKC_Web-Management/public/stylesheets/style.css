@@ -1,0 +1,54 @@
+body {
+  font: 20px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+.Main_p{
+  width:300px;
+  font-size : 50px;
+  border: solid black 1px;
+  text-align: center;
+  display : inline-block;
+}
+.Main_div{
+  height:50%;
+  text-align: center;
+}
+.Setting_div{
+  margin : 10px 0;
+  text-align: center;
+}
+.Setting_label{
+  margin : 10px 8px;
+  display: inline-block;
+}
+.View_top{
+  border : solid black 1px;
+  padding : 3px;
+  text-align: left;
+}
+.View_div{
+  width: 200px;
+  height : 600px;
+  background-color: burlywood;
+  margin : 0 20px 0 0;
+  float:left;
+}
+.View_MSK_Server{
+  width : 200px;
+  height : 100px;
+  float : left;
+  background-color: greenyellow;
+  margin : 0 40px 0 0;
+  display: flex;
+}
+.View_MSK_Client{
+  width : 800px;
+  height : 100px;
+  float: left;
+  background-color: yellow;
+  display: flex;
+}
+.View_label{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
